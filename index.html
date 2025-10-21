@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me - Drxyzz Geogory</title>
+<link rel="stylesheet" href="style.css">
+<!-- Google Fonts untuk tampilan yang lebih baik (opsional) -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="container">
+<h1>Halo, Saya Drxyzz Geogory</h1>
+<button id="menuToggle" class="menu-button">Menu</button>
+<nav id="mainNav">
+<ul>
+<li><a href="#about">Tentang Saya</a></li>
+<li><a href="#skills">Skill Coding</a></li>
+<li><a href="https://github.com/XrwyzzVillain" target="_blank">Profil GitHub</a></li>
+<!-- Tambahkan link lain jika perlu -->
+</ul>
+</nav>
+</div>
+</header>
+
+<main class="container">
+<section id="about" class="card">
+<div class="about-header">
+<img src="https://via.placeholder.com/150" alt="Foto Profil Anda" class="profile-img">
+<h2>Tentang Saya</h2>
+</div>
+<p>Halo! Saya Drxyzz Geogory, seorang pengembang web pemula. Saya memiliki minat yang besar dalam belajar bahasa pemrograman baru.</p>
+<p>Saya suka belajar hal-hal baru dan tantangan. Saat ini, saya fokus pada pengembangan analisis data dengan Python].</p>
+<button class="primary-button" onclick="document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });">Lihat Skill Coding Saya</button>
+</section>
+
+<section id="skills" class="card">
+<h2>Skill Coding Lainnya</h2>
+<div class="skills-grid">
+<div class="skill-category">
+<h3>Web Development</h3>
+<ul>
+<li>HTML5</li>
+<li>CSS3 (Flexbox, Grid)</li>
+<li>JavaScript (ES6+)</li>
+<li>React.js (Dasar)</li>
+<li>Node.js (Dasar)</li>
+</ul>
+</div>
+<div class="skill-category">
+<h3>Programming Languages</h3>
+<ul>
+<li>Python (Dasar)</li>
+<li>Java (Dasar)</li>
+<li>C++ (Pengantar)</li>
+</ul>
+</div>
+<div class="skill-category">
+<h3>Tools & Others</h3>
+<ul>
+<li>Git & GitHub</li>
+<li>VS Code</li>
+<li>Linux Command Line</li>
+<li>Figma (Dasar UI/UX)</li>
+</ul>
+</div>
+</div>
+<!-- Anda bisa tambahkan lebih banyak skill atau kategori -->
+</section>
+
+<section id="music-player" class="card">
+<h2>Mulai Musik</h2>
+<p>Santai sejenak dengan musik favorit Anda!</p>
+<!-- Ganti 'your-music-file.mp3' dengan path ke file musik Anda -->
+<audio id="backgroundMusic" loop>
+<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+Maaf, browser Anda tidak mendukung pemutar audio.
+</audio>
+<button id="playMusic" class="primary-button">Mulai Musik</button>
+<p class="small-text"><i>*Musik di atas adalah contoh. Anda bisa menggantinya dengan file MP3 Anda sendiri.</i></p>
+</section>
+</main>
+
+<footer>
+<div class="container">
+<p>&copy; 2025 Drxyzz Geogory. Hak Cipta Dilindungi.</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
